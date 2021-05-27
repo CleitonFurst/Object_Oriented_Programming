@@ -25,7 +25,7 @@ while True:
         saque = float(input('Quanto deseja sacar ? :'))
         temp.sacar(saque)
     elif op == 4:
-        deposito = float(input('Qunto deseja depositar ?:'))
+        deposito = float(input('Quanto deseja depositar ?:'))
         temp.depositar(deposito)
     else:
         break

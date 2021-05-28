@@ -77,8 +77,8 @@ class Tv:
             print('.'*self.__volume,self.__volume)      
         else:
             print(f'Volume 0 ',end='') 
-            print('|'*valor,end='')            
-            print('.'*(self.__volume - valor), self.__volume) 
+            print('|' * valor, end='')            
+            print('.' * (self.__volume - valor), self.__volume) 
             
              
               
